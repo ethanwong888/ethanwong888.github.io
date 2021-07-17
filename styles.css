@@ -127,19 +127,14 @@ u{
 }
 
 a{
-  font-family: 'Fredoka One', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-
-  font-weight:100;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 650;
 }
 
 h3{
-  font-family: 'Fredoka One', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
-
-  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
-  /* font-weight: 650; */
+  font-weight: 650;
 }
 
 p{
@@ -319,7 +314,7 @@ a:visited{
 }
 
 /* Mobile */
-@media(max-width: 500px){
+@media(max-width: 475px){
   /* body{
     display:none;
   } */
@@ -329,6 +324,16 @@ a:visited{
   }
   .about-me, .activities, .proj, .misc, .random{
     width: 90%;
+  }
+  a{
+    font-family: 'Fredoka One', sans-serif;
+    font-weight:100;
+  }
+
+  h3{
+    font-family: 'Fredoka One', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
   }
 }
 
@@ -409,7 +414,6 @@ button:visited{
 
 .col{
   background-color: #f2f7ff;
-  /* width: calc(100% - 1rem); */
   height: 100%;
 }
 
