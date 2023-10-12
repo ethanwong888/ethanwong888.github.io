@@ -435,6 +435,10 @@ button:visited{
   width: 0;
 }
 
+summary {
+  font-size: 1.3em;
+}
+
 
 /* Media Queries - Tablet and Under */
 
